@@ -41,6 +41,11 @@ aunsol=0
 fcntrl=0
 crst=0
 
+# wake enable
+wakeen=()
+
+sdiwen=0
+
 print_usage()
 {
     echo "example usage:"
@@ -80,10 +85,14 @@ list_global_capabilities(){
 }
 
 list_version(){
+    local revision=()
+    
     echo -n "version info VMAJ.VMIN is: "
     
-    vmaj=`hda-verb $soundcard 0x0 PARAMETERS 0x3 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
-    vmin=`hda-verb $soundcard 0x0 PARAMETERS 0x2 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+    revision=`hda-verb $soundcard 0x0 PARAMETERS 0x2 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+
+    (( vmaj = 0xff00 & $revision ))
+    (( vmin = 0x00ff & $revision ))
     
     printf "$((16#$vmaj)).$((16#$vmin))\n\n"
 
@@ -102,8 +111,7 @@ list_payload(){
     echo -e " ---- \n"
 }
 
-list_global_control()
-{
+list_global_control(){
     echo "retrieving global control"
     
     gctl=`hda-verb $soundcard 0x0 PARAMETERS 0x8 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
@@ -121,8 +129,21 @@ list_global_control()
     echo -e " ---- \n"
 }
 
-set_global_control()
-{
+list_wake_enable(){
+    echo "retrieving wake enable"
+
+    wakeen=`hda-verb $soundcard 0x0 PARAMETERS 0xC 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+
+    printf "returned 0x$wakeen\n\n"
+    
+    (( sdiwen = $((16#7fff)) & $((16#$waken)) ))
+
+    printf "SDIN wake enable flags $sdiwen"
+
+    echo -e " ---- \n"
+}
+
+set_global_control(){
     local gctl=()
     local aunsol=()
     local fcntrl=()
@@ -155,8 +176,8 @@ set_global_control()
 	(( gctl = $gctl | $((16#00000001)) ))	
     fi
 
-    #TODO:JK: figure out howto set global control
-    #    hda-verb $soundcard 0x0 0x7ff $gctl
+    # send command using function RESET verb
+    hda-verb $soundcard 0x0 0x7ff $gctl
 
     echo -e " ---- \n"    
 }
@@ -175,6 +196,7 @@ run_interactive()
 		echo "[3] list payload"
 		echo "[4] list global control"
 		echo "[5] set global control"
+		echo "[6] list wake enable"
 		;;
 	    1)
 		list_global_capabilities
@@ -190,6 +212,9 @@ run_interactive()
 		;;
 	    5)
 		set_global_control
+		;;
+	    6)
+		list_wake_enable
 		;;
 	    quit)
 		echo "leaving interactive mode"
@@ -210,6 +235,7 @@ if [ $# -eq 1 ] ; then
     list_version
     list_payload
     list_global_control
+    list_wake_enable
 
     # going interactive
     run_interactive
