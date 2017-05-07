@@ -121,14 +121,66 @@ list_global_control()
     echo -e " ---- \n"
 }
 
+set_global_control()
+{
+    local gctl=()
+    
+    gctl=`hda-verb $soundcard 0x0 PARAMETERS 0x8 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+    
+}
+
+run_interactive()
+{
+    cmd=()
+
+    while [ "$cmd" != "quit" ] ; do
+	read -p "enter next command index[0 = list available, quit = exit interactive mode]: " cmd
+
+	case $cmd in
+	    0)
+		echo "[1] list global capabilities"
+		echo "[2] list version"
+		echo "[3] list payload"
+		echo "[4] list global control"
+		echo "[5] set global control"
+		;;
+	    1)
+		list_global_capabilities
+		;;
+	    2)
+		list_version
+		;;
+	    3)
+		list_payload
+		;;
+	    4)
+		list_global_control
+		;;
+	    5)
+		set_global_control
+		;;
+	    quit)
+		echo "leaving interactive mode"
+		;;
+	    *)
+		echo "Unsupported command index $cmd"
+		;;
+	esac
+    done
+}
+
 # entry point
 if [ $# -eq 1 ] ; then
     soundcard=$1
 
+    # list some information
     list_global_capabilities
     list_version
     list_payload
     list_global_control
+
+    # going interactive
+    run_interactive
 else
     print_usage
 
@@ -137,4 +189,3 @@ else
     
     exit 0
 fi
-
