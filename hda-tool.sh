@@ -28,6 +28,9 @@ is_64bit=0
 vmaj=()
 vmin=()
 
+opc=()
+ipc=()
+
 print_usage()
 {
     echo "example usage:"
@@ -43,7 +46,7 @@ list_soundcards(){
 }
 
 list_global_capabilities(){
-    echo "retrieving global capabilities"
+    echo "retrieving global capability"
     
     gcap=`hda-verb $soundcard 0x0 PARAMETERS 0x0 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
     
@@ -72,12 +75,21 @@ list_version(){
     vmaj=`hda-verb $soundcard 0x0 PARAMETERS 0x3 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
     vmin=`hda-verb $soundcard 0x0 PARAMETERS 0x2 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
     
-    printf "$((16#$vmaj)).$((16#$vmin))\n"
+    printf "$((16#$vmaj)).$((16#$vmin))\n\n"
+
+    echo -e " ---- \n"
 }
 
 list_payload(){
-    echo -n "version info VMAJ.VMIN is: "
+    echo "retrieving output and input payload capabilitity"
     
+    opc=`hda-verb $soundcard 0x0 PARAMETERS 0x4 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+    ipc=`hda-verb $soundcard 0x0 PARAMETERS 0x6 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+
+    printf "returned opc = 0x$opc\n"
+    printf "returned ipc = 0x$opc\n\n"
+
+    echo -e " ---- \n"
 }
 
 # entry point
@@ -86,6 +98,7 @@ if [ $# -eq 1 ] ; then
 
     list_global_capabilities
     list_version
+    list_payload
 else
     print_usage
 
