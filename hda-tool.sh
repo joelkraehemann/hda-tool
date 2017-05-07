@@ -53,6 +53,30 @@ statests=()
 # sdi wake
 sdiwake=0
 
+# global status
+gsts=()
+
+# flush status
+fsts=0
+
+# output stream payload
+outstrmpay=()
+
+# input stream payload
+instrmpay=()
+
+# interrupt control
+intctl=()
+
+# global interrupt enable
+gie=0
+
+# controller interrupt enable
+cie=0
+
+# stream interrupt enable
+sie=0
+
 print_usage()
 {
     echo "example usage:"
@@ -96,10 +120,11 @@ list_version(){
     
     echo -n "version info VMAJ.VMIN is: "
     
-    revision=`hda-verb $soundcard 0x0 PARAMETERS 0x2 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+    revision=`hda-verb $soundcard 0x0 PARAMETERS 0x3 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+    (( vmaj = 0xff & $revision ))
 
-    (( vmaj = 0xff00 & $revision ))
-    (( vmin = 0x00ff & $revision ))
+    revision=`hda-verb $soundcard 0x0 PARAMETERS 0x2 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+    (( vmin = 0xff & $revision ))
     
     printf "$((16#$vmaj)).$((16#$vmin))\n\n"
 
@@ -169,6 +194,7 @@ set_global_control(){
 	(( gctl = $gctl | $((16#00000001)) ))	
     fi
 
+    #TODO:JK: verifiy me
     # send command using function RESET verb
     hda-verb $soundcard 0x0 0x7ff $gctl
 
@@ -202,6 +228,7 @@ set_wake_enable(){
     (( wakeen = $wakeen & (~ $((16#7f)) ) ))
     (( wakeen = $wakeen | $sdiwen ))
 
+    #TODO:JK: verifiy me
     # send command using function SDI SELECT verb
     hda-verb $soundcard 0x0 0x704 $wakeen
 
@@ -222,6 +249,115 @@ list_state_change_status(){
     echo -e " ---- \n"
 }
 
+set_state_change_status()
+{
+    local statests="0"
+    local sdiwake=0
+
+    printf "NOTE: it is not supported to modify state change status\n"
+
+    read -e -p "SDIN signal(s) received [0x7f] (sticky bit read-only status, write 1 to clear status register - resume well): " -i "0x0" sdiwake
+
+    sdiwake=$((16#${sdiwake:2}))
+
+    #TODO:JK: implement me
+    
+    echo -e " ---- \n"    
+}
+
+list_global_status(){
+    echo "retrieving state change status"
+
+    gsts=`hda-verb $soundcard 0x0 PARAMETERS 0x10 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+
+    printf "returned 0x$gsts\n\n"
+
+    (( fsts = $((16#0002)) & $((16#$gsts)) ))
+
+    printf "flush status $fsts"
+
+    echo -e " ---- \n"    
+}
+
+set_global_status(){
+    local gsts="0"
+    local fsts=0
+
+    printf "NOTE: it is not supported to clear flush status\n"
+
+    read -e -p "Flush status [0x0] (write 0x1 to clear): " -i "0x0" fsts
+
+    fsts=$((16#${fsts:2}))
+
+    #TODO:JK: implement me
+    
+    echo -e " ---- \n"
+}
+
+list_output_stream_payload_capability(){
+    echo "retrieving output stream payload capability"
+
+    outstrmpay=`hda-verb $soundcard 0x0 PARAMETERS 0x18 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+
+    printf "returned 0x$outstrmpay\n\n"
+    
+    echo -e " ---- \n"
+}
+
+list_input_stream_payload_capability(){
+    echo "retrieving input stream payload capability"
+
+    instrmpay=`hda-verb $soundcard 0x0 PARAMETERS 0x1a 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+
+    printf "returned 0x$instrmpay\n\n"
+    
+    echo -e " ---- \n"
+}
+
+list_interrupt_control()
+{
+    local is1=0
+    local is2=0
+    local os1=0
+    local os2=0
+    local os3=0
+    local bs1=0
+    
+    echo "retrieving interrupt control"
+
+    intctl=`hda-verb $soundcard 0x0 PARAMETERS 0x20 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+    
+    printf "returned 0x$intctl\n\n"
+
+    (( gie = ( $intctl & $((16#8000)) ) >> 31 ))    
+    (( cie = ( $intctl & $((16#4000)) ) >> 30 ))
+    (( sie = $intctl & $((16#3fff)) ))
+    
+    printf "global interrupt enable $gie\n"
+    printf "controller interrupt enable $cie\n\n"
+
+    printf "stream interrupt enable 0x$sie\n"
+
+    (( is1 = $((16#$sie)) & 0x0001 ))    
+    (( is2 = ( $((16#$sie)) & 0x0002 ) >> 1 ))    
+
+    (( os1 = ( $((16#$sie)) & 0x0004 ) >> 2 ))
+    (( os2 = ( $((16#$sie)) & 0x0008 ) >> 3 ))
+    (( os3 = ( $((16#$sie)) & 0x0010 ) >> 4 ))
+
+    (( bs1 = ( $((16#$sie)) & 0x0020 ) >> 5 ))    
+
+    printf "  input stream 1 $is1\n"
+    printf "  input stream 2 $is2\n"
+    printf "  output stream 1 $os1\n"
+    printf "  output stream 2 $os2\n"
+    printf "  output stream 3 $os3\n"
+    printf "  bidirectional stream 1 $bs1\n\n"
+    
+    echo -e " ---- \n"
+}
+
+
 run_interactive()
 {
     cmd=()
@@ -239,6 +375,12 @@ run_interactive()
 		echo "[6] list wake enable"
 		echo "[7] set wake enable"
 		echo "[8] list state change status"
+		echo "[9] set state change status"
+		echo "[10] list global status"
+		echo "[11] set global status"
+		echo "[12] list output stream payload capability"
+		echo "[13] list input stream payload capability"
+		echo "[14] list interrupt control"
 		;;
 	    1)
 		list_global_capabilities
@@ -264,6 +406,24 @@ run_interactive()
 	    8)
 		list_state_change_status
 		;;
+	    9)
+		set_state_change_status
+		;;
+	    10)
+		list_global_status
+		;;
+	    11)
+		set_global_status
+		;;
+	    12)
+		list_output_stream_payload_capability
+		;;
+	    13)
+		list_input_stream_payload_capability
+		;;
+	    14)
+		list_interrupt_control
+		;;
 	    quit)
 		echo "leaving interactive mode"
 		;;
@@ -285,7 +445,11 @@ if [ $# -eq 1 ] ; then
     list_global_control
     list_wake_enable
     list_state_change_status
-
+    list_global_status
+    list_output_stream_payload_capability
+    list_input_stream_payload_capability
+    list_interrupt_control
+    
     # going interactive
     run_interactive
 else
