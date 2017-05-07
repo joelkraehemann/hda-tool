@@ -129,20 +129,6 @@ list_global_control(){
     echo -e " ---- \n"
 }
 
-list_wake_enable(){
-    echo "retrieving wake enable"
-
-    wakeen=`hda-verb $soundcard 0x0 PARAMETERS 0xC 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
-
-    printf "returned 0x$wakeen\n\n"
-    
-    (( sdiwen = $((16#7fff)) & $((16#$waken)) ))
-
-    printf "SDIN wake enable flags $sdiwen"
-
-    echo -e " ---- \n"
-}
-
 set_global_control(){
     local gctl=()
     local aunsol=()
@@ -179,6 +165,39 @@ set_global_control(){
     # send command using function RESET verb
     hda-verb $soundcard 0x0 0x7ff $gctl
 
+    echo -e " ---- \n"
+}
+
+list_wake_enable(){
+    echo "retrieving wake enable"
+
+    wakeen=`hda-verb $soundcard 0x0 PARAMETERS 0xC 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+
+    printf "returned 0x$wakeen\n\n"
+    
+    (( sdiwen = $((16#7fff)) & $((16#$waken)) ))
+
+    printf "SDIN wake enable flags $sdiwen"
+
+    echo -e " ---- \n"
+}
+
+set_wake_enable(){
+    local wakeen=()
+    local sdiwen=0
+    
+    wakeen=`hda-verb $soundcard 0x0 PARAMETERS 0xC 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+
+    read -e -p "Enable SDIN wake flags [0x7f] (resume well): " -i "0x0" sdiwen
+
+    sdiwen=$((16#${sdiwen:2}))
+    
+    (( wakeen = $wakeen & (~ $((16#7f)) ) ))
+    (( wakeen = $wakeen | $sdiwen ))
+
+    # send command using function SDI SELECT verb
+    hda-verb $soundcard 0x0 0x704 $wakeen
+
     echo -e " ---- \n"    
 }
 
@@ -197,6 +216,7 @@ run_interactive()
 		echo "[4] list global control"
 		echo "[5] set global control"
 		echo "[6] list wake enable"
+		echo "[7] set wake enable"
 		;;
 	    1)
 		list_global_capabilities
@@ -215,6 +235,9 @@ run_interactive()
 		;;
 	    6)
 		list_wake_enable
+		;;
+	    7)
+		set_wake_enable
 		;;
 	    quit)
 		echo "leaving interactive mode"
