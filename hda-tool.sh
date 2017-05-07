@@ -2,7 +2,7 @@
 
 # --------------------------------
 # Author: Joël Krähemann
-# program: hda-tool.sh
+# Program: hda-tool.sh
 # Version: 0.1
 # Lincense: GPLv3
 # Title: hda-verb discovery and exploration
@@ -44,7 +44,14 @@ crst=0
 # wake enable
 wakeen=()
 
+# sdi wake enable
 sdiwen=0
+
+# state change status
+statests=()
+
+# sdi wake
+sdiwake=0
 
 print_usage()
 {
@@ -201,6 +208,20 @@ set_wake_enable(){
     echo -e " ---- \n"    
 }
 
+list_state_change_status(){
+    echo "retrieving state change status"
+
+    statests=`hda-verb $soundcard 0x0 PARAMETERS 0xE 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+
+    printf "returned 0x$statests\n\n"
+
+    (( sdiwake = $((16#7fff)) & $((16#$statests)) ))
+
+    printf "SDIN state change status flags $sdiwake"
+
+    echo -e " ---- \n"
+}
+
 run_interactive()
 {
     cmd=()
@@ -217,6 +238,7 @@ run_interactive()
 		echo "[5] set global control"
 		echo "[6] list wake enable"
 		echo "[7] set wake enable"
+		echo "[8] list state change status"
 		;;
 	    1)
 		list_global_capabilities
@@ -239,6 +261,9 @@ run_interactive()
 	    7)
 		set_wake_enable
 		;;
+	    8)
+		list_state_change_status
+		;;
 	    quit)
 		echo "leaving interactive mode"
 		;;
@@ -259,6 +284,7 @@ if [ $# -eq 1 ] ; then
     list_payload
     list_global_control
     list_wake_enable
+    list_state_change_status
 
     # going interactive
     run_interactive
