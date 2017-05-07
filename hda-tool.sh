@@ -25,11 +25,21 @@ nbss=0
 nsdo=0
 is_64bit=0
 
+# version info
 vmaj=()
 vmin=()
 
+# output and input payload capability
 opc=()
 ipc=()
+
+# global control
+gctl=()
+
+# accepted unsolicited response enable, flush control and controller reset
+aunsol=0
+fcntrl=0
+crst=0
 
 print_usage()
 {
@@ -92,6 +102,25 @@ list_payload(){
     echo -e " ---- \n"
 }
 
+list_global_control()
+{
+    echo "retrieving global control"
+    
+    gctl=`hda-verb $soundcard 0x0 PARAMETERS 0x8 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+
+    printf "returned 0x$gctl\n\n"
+
+    (( aunsol = ( $((16#00000100)) & $((16#$gctl)) ) >> 8 ))
+    (( fcntrl = ( $((16#00000002)) & $((16#$gctl)) ) >> 1 ))
+    (( crst = $((16#00000001)) & $((16#$gctl))))
+
+    printf "accepted unsolicited response enable: $aunsol\n"
+    printf "flush control: $fcntrl\n"
+    printf "controller reset: $crst\n\n"
+
+    echo -e " ---- \n"
+}
+
 # entry point
 if [ $# -eq 1 ] ; then
     soundcard=$1
@@ -99,6 +128,7 @@ if [ $# -eq 1 ] ; then
     list_global_capabilities
     list_version
     list_payload
+    list_global_control
 else
     print_usage
 
