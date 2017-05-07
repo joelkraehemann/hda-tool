@@ -124,9 +124,41 @@ list_global_control()
 set_global_control()
 {
     local gctl=()
+    local aunsol=()
+    local fcntrl=()
+    local crst=()
     
     gctl=`hda-verb $soundcard 0x0 PARAMETERS 0x8 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
-    
+
+    read -e -p "Enable accept unsolicited response [0/1]: " -i "1" aunsol
+    read -e -p "Flush control [0/1]: " -i "0" fcntrl
+    read -e -p "Controller reset [0/1] (stiky): " -i "0" crst
+
+    # toggle enable accept unsolicited response
+    if [ "$aunsol" == "0" ] ; then
+	(( gctl = $gctl & ( ~ $((16#00000100)) ) ))
+    else
+	(( gctl = $gctl | $((16#00000100)) ))	
+    fi
+
+    # toggle flush control
+    if [ "$fcntrl" == "0" ] ; then
+	(( gctl = $gctl & ( ~ $((16#00000002)) ) ))
+    else
+	(( gctl = $gctl | $((16#00000002)) ))	
+    fi
+
+    # toggle controller reset
+    if [ "$crst" == "0" ] ; then
+	(( gctl = $gctl & ( ~ $((16#00000001)) ) ))
+    else
+	(( gctl = $gctl | $((16#00000001)) ))	
+    fi
+
+    #TODO:JK: figure out howto set global control
+    #    hda-verb $soundcard 0x0 0x7ff $gctl
+
+    echo -e " ---- \n"    
 }
 
 run_interactive()
