@@ -89,6 +89,9 @@ cis=0
 # stream interrupt status
 sis=0
 
+# wall clock
+wclck=()
+
 print_usage()
 {
     echo "example usage:"
@@ -455,6 +458,132 @@ list_interrupt_status()
     echo -e " ---- \n"
 }
 
+list_wall_clock_counter()
+{
+    echo "retrieving wall clock counter"
+
+    wclck=`hda-verb $soundcard 0x0 PARAMETERS 0x30 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+    
+    printf "returned 0x$wclck\n\n"
+
+    echo -e " ---- \n"
+}
+
+scan_audio_widget_capabilities(){
+    local awc=()
+    local pcc=()
+    local widget_start=2
+    local widget_end=80
+    local nid=0
+    
+    echo -e "scan for audio widget capabilites\n"
+
+    for((i=0; i < widget_end - widget_start; i++))
+       {
+	   (( nid = $widget_start + $i ))
+
+	   echo "NID=$nid"	   
+	   
+	   awc=`hda-verb $soundcard $nid PARAMETERS 0x9 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+
+	   echo "return $awc"
+
+	   # audio output
+	   if (( ( $((16#$awc)) & 1 ) == 1 )) ; then
+	       printf "* audio output\n"
+	   fi
+
+	   # audio input
+	   if (( ( $((16#$awc)) & 2 ) == 2 )) ; then
+	       printf "* audio input\n"
+	   fi
+
+	   # audio mixer
+	   if (( ( $((16#$awc)) & 4 ) == 4 )) ; then
+	       printf "* audio mixer\n"
+	   fi
+
+	   # audio selector
+	   if (( ( $((16#$awc)) & 8 ) == 8 )) ; then
+	       printf "* audio selector\n"
+	   fi
+
+	   # pin complex
+	   if (( ( $((16#$awc)) & 16 ) == 16 )) ; then
+	       local vref=0
+	       
+	       printf "* pin complex\n"
+
+	       pcc=`hda-verb $soundcard $nid PARAMETERS 0xC 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+
+	       if (( ( $((16#$pcc)) & 1 ) == 1 )) ; then
+		   printf "  - impendance sense capable\n"
+	       fi
+
+	       if (( ( $((16#$pcc)) & 2 ) == 2 )) ; then
+		   printf "  - trigger required\n"
+	       fi
+
+	       if (( ( $((16#$pcc)) & 4 ) == 4 )) ; then
+		   printf "  - presence detect capable\n"
+	       fi
+
+	       if (( ( $((16#$pcc)) & 8 ) == 8 )) ; then
+		   printf "  - head-phone drive capable\n"
+	       fi
+
+	       if (( ( $((16#$pcc)) & 16 ) == 16 )) ; then
+		   printf "  - output capable\n"
+	       fi
+
+	       if (( ( $((16#$pcc)) & 32 ) == 32 )) ; then
+		   printf "  - input capable\n"
+	       fi
+
+	       if (( ( $((16#$pcc)) & 64 ) == 64 )) ; then
+		   printf "  - balanced I/O pins\n"
+	       fi
+
+	       if (( ( $((16#$pcc)) & 128 ) == 128 )) ; then
+		   printf "  - HDMI\n"
+	       fi
+
+	       (( vref = ( $((16#$pcc)) & (0xff << 8) ) >> 8 ))
+	       
+	       printf "  - VRef control 0x$vref\n"
+
+	       if (( ( $((16#$pcc)) & (1 << 16) ) == (1 << 16) )) ; then
+		   printf "  - EAPD capable\n"
+	       fi
+
+	       if (( ( $((16#$pcc)) & (1 << 24) ) == (1 << 24) )) ; then
+		   printf "  - display port\n"
+	       fi
+
+	       if (( ( $((16#$pcc)) & (1 << 27) ) == (1 << 27) )) ; then
+		   printf "  - high bitrate\n"
+	       fi
+	   fi
+
+	   # power widget
+	   if (( ( $((16#$awc)) & 32 ) == 32 )) ; then
+	       printf "* power widget\n"
+	   fi
+
+	   # volume knob widgret
+	   if (( ( $((16#$awc)) & 64 ) == 64 )) ; then
+	       printf "* volume knob widget\n"
+	   fi
+
+	   # beep
+	   if (( ( $((16#$awc)) & 128 ) == 128 )) ; then
+	       printf "* beep generator\n"
+	   fi
+	   
+	   printf "\n"
+       }
+}
+
 run_interactive()
 {
     cmd=()
@@ -480,6 +609,8 @@ run_interactive()
 		echo "[14] list interrupt control"
 		echo "[15] set interrupt control"
 		echo "[16] list interrupt status"
+		echo "[17] list wall clock counter"
+		echo "[999] scan audio widget capabilities"
 		;;
 	    1)
 		list_global_capabilities
@@ -529,6 +660,12 @@ run_interactive()
 	    16)
 		list_interrupt_status
 		;;
+	    17)
+		list_wall_clock_counter
+		;;
+	    999)
+		scan_audio_widget_capabilities
+		;;
 	    quit)
 		echo "leaving interactive mode"
 		;;
@@ -555,6 +692,7 @@ if [ $# -eq 1 ] ; then
     list_input_stream_payload_capability
     list_interrupt_control
     list_interrupt_status
+    list_wall_clock_counter
     
     # going interactive
     run_interactive
