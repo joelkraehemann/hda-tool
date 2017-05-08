@@ -77,6 +77,18 @@ cie=0
 # stream interrupt enable
 sie=0
 
+# interrupt status
+intsts=()
+
+# global interrupt status
+gis=0
+
+# controller interrupt status
+cis=0
+
+# stream interrupt status
+sis=0
+
 print_usage()
 {
     echo "example usage:"
@@ -210,7 +222,7 @@ list_wake_enable(){
     
     (( sdiwen = $((16#7fff)) & $((16#$waken)) ))
 
-    printf "SDIN wake enable flags $sdiwen"
+    printf "SDIN wake enable flags $sdiwen\n\n"
 
     echo -e " ---- \n"
 }
@@ -244,7 +256,7 @@ list_state_change_status(){
 
     (( sdiwake = $((16#7fff)) & $((16#$statests)) ))
 
-    printf "SDIN state change status flags $sdiwake"
+    printf "SDIN state change status flags $sdiwake\n\n"
 
     echo -e " ---- \n"
 }
@@ -274,7 +286,7 @@ list_global_status(){
 
     (( fsts = $((16#0002)) & $((16#$gsts)) ))
 
-    printf "flush status $fsts"
+    printf "flush status $fsts\n\n"
 
     echo -e " ---- \n"    
 }
@@ -347,16 +359,101 @@ list_interrupt_control()
 
     (( bs1 = ( $((16#$sie)) & 0x0020 ) >> 5 ))    
 
-    printf "  input stream 1 $is1\n"
-    printf "  input stream 2 $is2\n"
-    printf "  output stream 1 $os1\n"
-    printf "  output stream 2 $os2\n"
-    printf "  output stream 3 $os3\n"
-    printf "  bidirectional stream 1 $bs1\n\n"
+    printf "  input stream 1 enable $is1\n"
+    printf "  input stream 2 enable $is2\n"
+    printf "  output stream 1 enable $os1\n"
+    printf "  output stream 2 enable $os2\n"
+    printf "  output stream 3 enable $os3\n"
+    printf "  bidirectional stream 1 enable $bs1\n\n"
     
     echo -e " ---- \n"
 }
 
+set_interrupt_control(){
+    local intctl="0"
+    local gie=0
+    local cie=0
+    local sie=0
+    local is1=0
+    local is2=0
+    local os1=0
+    local os2=0
+    local os3=0
+    local bs1=0
+
+    printf "NOTE: it is not supported to set interrupt control\n"
+
+    read -e -p "Global interrupt enable [0x1]: " -i "0x1" gie
+    read -e -p "Controller interrupt enable [0x1]: " -i "0x1" cie
+    read -e -p "Stream interrupt enable [0x1]: " -i "0x1" sie
+
+    read -e -p "  input stream 1 enable [0x1]: " -i "0x1" is1
+    read -e -p "  input stream 2 enable [0x1]: " -i "0x1" is2
+    read -e -p "  output stream 1 enable [0x1]: " -i "0x1" os1
+    read -e -p "  output stream 2 enable [0x1]: " -i "0x1" os2
+    read -e -p "  output stream 3 enable [0x1]: " -i "0x1" os3
+    read -e -p "  bi-directional stream 1 enable [0x1]: " -i "0x1" bs1
+    
+    gie=$((16#${gie:2}))
+    cie=$((16#${cie:2}))
+    sie=$((16#${sie:2}))
+
+    is1=$((16#${is1:2}))
+    is2=$((16#${is2:2}))
+    os1=$((16#${os1:2}))
+    os2=$((16#${os2:2}))
+    os3=$((16#${os3:2}))
+    bs1=$((16#${bs1:2}))
+
+    (( intctl = ($gie << 31) | ($cie << 30) | ($sie << 29) | ($is1) | ($is2 << 1) | ($os1 << 2) | ($os2 << 3) | ($os3 << 4) | ($bs1 << 5) ))
+
+    #TODO:JK: implement me
+    
+    echo -e " ---- \n"
+}
+
+list_interrupt_status()
+{
+    local is1=0
+    local is2=0
+    local os1=0
+    local os2=0
+    local os3=0
+    local bs1=0
+    
+    echo "retrieving interrupt status"
+
+    intsts=`hda-verb $soundcard 0x0 PARAMETERS 0x24 2> /dev/null | awk -F' ' '{print substr($NF, 3)}'`
+    
+    printf "returned 0x$intsts\n\n"
+
+    (( gis = ( $intctl & $((16#8000)) ) >> 31 ))    
+    (( cis = ( $intctl & $((16#4000)) ) >> 30 ))
+    (( sis = $intctl & $((16#3fff)) ))
+    
+    printf "global interrupt status $gis\n"
+    printf "controller interrupt status $cis\n\n"
+
+    printf "stream interrupt status 0x$sis\n"
+
+    (( is1 = $((16#$sie)) & 0x0001 ))    
+    (( is2 = ( $((16#$sie)) & 0x0002 ) >> 1 ))    
+
+    (( os1 = ( $((16#$sie)) & 0x0004 ) >> 2 ))
+    (( os2 = ( $((16#$sie)) & 0x0008 ) >> 3 ))
+    (( os3 = ( $((16#$sie)) & 0x0010 ) >> 4 ))
+
+    (( bs1 = ( $((16#$sie)) & 0x0020 ) >> 5 ))    
+
+    printf "  input stream 1 status $is1\n"
+    printf "  input stream 2 status $is2\n"
+    printf "  output stream 1 status $os1\n"
+    printf "  output stream 2 status $os2\n"
+    printf "  output stream 3 status $os3\n"
+    printf "  bidirectional stream 1 status $bs1\n\n"
+    
+    echo -e " ---- \n"
+}
 
 run_interactive()
 {
@@ -381,6 +478,8 @@ run_interactive()
 		echo "[12] list output stream payload capability"
 		echo "[13] list input stream payload capability"
 		echo "[14] list interrupt control"
+		echo "[15] set interrupt control"
+		echo "[16] list interrupt status"
 		;;
 	    1)
 		list_global_capabilities
@@ -424,6 +523,12 @@ run_interactive()
 	    14)
 		list_interrupt_control
 		;;
+	    15)
+		set_interrupt_control
+		;;
+	    16)
+		list_interrupt_status
+		;;
 	    quit)
 		echo "leaving interactive mode"
 		;;
@@ -449,6 +554,7 @@ if [ $# -eq 1 ] ; then
     list_output_stream_payload_capability
     list_input_stream_payload_capability
     list_interrupt_control
+    list_interrupt_status
     
     # going interactive
     run_interactive
