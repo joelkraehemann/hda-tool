@@ -1,0 +1,9 @@
+[Unit]
+Description=HDA retask test
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/hda-retask-test.sh
+
+[Install]
+WantedBy=multi-user.target

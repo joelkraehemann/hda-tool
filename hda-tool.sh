@@ -494,22 +494,22 @@ scan_audio_widget_capabilities(){
 	   fi
 
 	   # audio input
-	   if (( ( $((16#$awc)) & 2 ) == 2 )) ; then
+	   if (( ( $((16#$awc)) & (1 << 1) ) == (1 << 1) )) ; then
 	       printf "* audio input\n"
 	   fi
 
 	   # audio mixer
-	   if (( ( $((16#$awc)) & 4 ) == 4 )) ; then
+	   if (( ( $((16#$awc)) & (1 << 2) ) == (1 << 2) )) ; then
 	       printf "* audio mixer\n"
 	   fi
 
 	   # audio selector
-	   if (( ( $((16#$awc)) & 8 ) == 8 )) ; then
+	   if (( ( $((16#$awc)) & (1 << 3) ) == (1 << 3) )) ; then
 	       printf "* audio selector\n"
 	   fi
 
 	   # pin complex
-	   if (( ( $((16#$awc)) & 16 ) == 16 )) ; then
+	   if (( ( $((16#$awc)) & (1 << 4) ) == (1 << 4) )) ; then
 	       local vref=0
 	       
 	       printf "* pin complex\n"
@@ -520,31 +520,31 @@ scan_audio_widget_capabilities(){
 		   printf "  - impendance sense capable\n"
 	       fi
 
-	       if (( ( $((16#$pcc)) & 2 ) == 2 )) ; then
+	       if (( ( $((16#$pcc)) & (1 << 1) ) == (1 << 1) )) ; then
 		   printf "  - trigger required\n"
 	       fi
 
-	       if (( ( $((16#$pcc)) & 4 ) == 4 )) ; then
+	       if (( ( $((16#$pcc)) & (1 << 2) ) == (1 << 2) )) ; then
 		   printf "  - presence detect capable\n"
 	       fi
 
-	       if (( ( $((16#$pcc)) & 8 ) == 8 )) ; then
+	       if (( ( $((16#$pcc)) & (1 << 3) ) == (1 << 3) )) ; then
 		   printf "  - head-phone drive capable\n"
 	       fi
 
-	       if (( ( $((16#$pcc)) & 16 ) == 16 )) ; then
+	       if (( ( $((16#$pcc)) & (1 << 4) ) == (1 << 4) )) ; then
 		   printf "  - output capable\n"
 	       fi
 
-	       if (( ( $((16#$pcc)) & 32 ) == 32 )) ; then
+	       if (( ( $((16#$pcc)) & (1 << 5) ) == (1 << 5) )) ; then
 		   printf "  - input capable\n"
 	       fi
 
-	       if (( ( $((16#$pcc)) & 64 ) == 64 )) ; then
+	       if (( ( $((16#$pcc)) & (1 << 6) ) == (1 << 6) )) ; then
 		   printf "  - balanced I/O pins\n"
 	       fi
 
-	       if (( ( $((16#$pcc)) & 128 ) == 128 )) ; then
+	       if (( ( $((16#$pcc)) & (1 << 7) ) == (1 << 7) )) ; then
 		   printf "  - HDMI\n"
 	       fi
 
@@ -566,17 +566,17 @@ scan_audio_widget_capabilities(){
 	   fi
 
 	   # power widget
-	   if (( ( $((16#$awc)) & 32 ) == 32 )) ; then
+	   if (( ( $((16#$awc)) & (1 << 5) ) == (1 << 5) )) ; then
 	       printf "* power widget\n"
 	   fi
 
 	   # volume knob widgret
-	   if (( ( $((16#$awc)) & 64 ) == 64 )) ; then
+	   if (( ( $((16#$awc)) & (1 << 6) ) == (1 << 6) )) ; then
 	       printf "* volume knob widget\n"
 	   fi
 
 	   # beep
-	   if (( ( $((16#$awc)) & 128 ) == 128 )) ; then
+	   if (( ( $((16#$awc)) & (1 << 7) ) == (1 << 7) )) ; then
 	       printf "* beep generator\n"
 	   fi
 	   
