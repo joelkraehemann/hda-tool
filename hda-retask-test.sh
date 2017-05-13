@@ -4,7 +4,7 @@ current_nid=2
 current_dev=5
 current_pin=36
 
-stop_nid=18
+stop_nid=17
 stop_dev=31
 
 success=0
@@ -27,11 +27,11 @@ write_pincfg(){
     (( i++ ))
 
     (( tmp = 36 + $i ))
-    printf "0x%x 0x90100111\n" $tmp >> /lib/firmware/hda-jack-retask.fw
+    printf "0x%x 0x90100110\n" $tmp >> /lib/firmware/hda-jack-retask.fw
     (( i++ ))
 
     (( tmp = 36 + $i ))
-    printf "0x%x 0x90100110\n" $tmp >> /lib/firmware/hda-jack-retask.fw
+    printf "0x%x 0x90100111\n" $tmp >> /lib/firmware/hda-jack-retask.fw
     (( i++ ))
     
     for((; i < $stop_nid; i++)) ; do
@@ -54,7 +54,7 @@ write_verb(){
     printf "0x01 0x717 0xff\n" >> /lib/firmware/hda-jack-retask.fw
     printf "0x01 0x718 0xff\n" >> /lib/firmware/hda-jack-retask.fw
     printf "0x1 0x786 0x1\n" >> /lib/firmware/hda-jack-retask.fw
-
+ 
     printf "0x24 0x71c 0x0\n" >> /lib/firmware/hda-jack-retask.fw
     printf "0x24 0x71d 0x0\n" >> /lib/firmware/hda-jack-retask.fw
     printf "0x24 0x71e 0x0\n" >> /lib/firmware/hda-jack-retask.fw
@@ -65,14 +65,14 @@ write_verb(){
     printf "0x25 0x71f 0x0\n" >> /lib/firmware/hda-jack-retask.fw
 
     # 2, 3, 705, 706, 708
-    printf "0x%02x 0x2 0x4011\n" $nid >> /lib/firmware/hda-jack-retask.fw    
-    printf "0x%02x 0x3 0x1\n" $nid >> /lib/firmware/hda-jack-retask.fw    
     printf "0x%02x 0x705 0x0\n" $nid >> /lib/firmware/hda-jack-retask.fw
+    printf "0x%02x 0x3 0x1\n" $nid >> /lib/firmware/hda-jack-retask.fw    
     printf "0x%02x 0x706 0x10\n" $nid >> /lib/firmware/hda-jack-retask.fw
     printf "0x%02x 0x708 0x80\n" $nid >> /lib/firmware/hda-jack-retask.fw
     printf "0x%02x 0x773 0x0\n" $nid >> /lib/firmware/hda-jack-retask.fw
 
     # 707, 708, 709
+    printf "0x%02x 0x705 0x00\n" $pin >> /lib/firmware/hda-jack-retask.fw
     printf "0x%02x 0x707 0x85\n" $pin >> /lib/firmware/hda-jack-retask.fw
     printf "0x%02x 0x70c 0x2\n" $pin >> /lib/firmware/hda-jack-retask.fw
     printf "0x%02x 0x708 0x80\n" $pin >> /lib/firmware/hda-jack-retask.fw
@@ -84,17 +84,45 @@ write_verb(){
     printf "0x%02x 0x71e 0x0\n" $pin >> /lib/firmware/hda-jack-retask.fw
     printf "0x%02x 0x71f 0x0\n" $pin >> /lib/firmware/hda-jack-retask.fw
 
+    printf "0x%02x 0x724 0x3\n" $nid >> /lib/firmware/hda-jack-retask.fw
+
+    printf "0x%02x 0x2 0x4011\n" $nid >> /lib/firmware/hda-jack-retask.fw    
+
     (( nid++ ))
     (( dev++ ))
     (( pin++ ))
     
-    printf "0x%02x 0x2 0x4011\n" $nid >> /lib/firmware/hda-jack-retask.fw
-    printf "0x%02x 0x3 0x1\n" $nid >> /lib/firmware/hda-jack-retask.fw    
     printf "0x%02x 0x705 0x0\n" $nid >> /lib/firmware/hda-jack-retask.fw
+    printf "0x%02x 0x3 0x1\n" $nid >> /lib/firmware/hda-jack-retask.fw    
     printf "0x%02x 0x706 0x10\n" $nid >> /lib/firmware/hda-jack-retask.fw
     printf "0x%02x 0x70c 0x2\n" $nid >> /lib/firmware/hda-jack-retask.fw
     printf "0x%02x 0x773 0x0\n" $nid >> /lib/firmware/hda-jack-retask.fw
 
+    printf "0x%02x 0x705 0x00\n" $pin >> /lib/firmware/hda-jack-retask.fw
+    printf "0x%02x 0x707 0x45\n" $pin >> /lib/firmware/hda-jack-retask.fw
+    printf "0x%02x 0x708 0x80\n" $pin >> /lib/firmware/hda-jack-retask.fw
+    # EAPD/BTL enable
+    printf "0x%02x 0x70c 0x2\n" $pin >> /lib/firmware/hda-jack-retask.fw
+    printf "0x%02x 0x71c 0x10\n" $pin >> /lib/firmware/hda-jack-retask.fw
+    printf "0x%02x 0x71d 0x0\n" $pin >> /lib/firmware/hda-jack-retask.fw
+    printf "0x%02x 0x71e 0x17\n" $pin >> /lib/firmware/hda-jack-retask.fw
+    printf "0x%02x 0x71f 0x43\n" $pin >> /lib/firmware/hda-jack-retask.fw
+
+    printf "0x%02x 0x724 0x3\n" $nid >> /lib/firmware/hda-jack-retask.fw
+
+    printf "0x%02x 0x2 0x4011\n" $nid >> /lib/firmware/hda-jack-retask.fw
+
+    (( nid++ ))
+    (( dev++ ))
+    (( pin++ ))
+    
+    printf "0x%02x 0x705 0x00\n" $nid >> /lib/firmware/hda-jack-retask.fw
+    printf "0x%02x 0x3 0x1\n" $nid >> /lib/firmware/hda-jack-retask.fw    
+    printf "0x%02x 0x706 0x11\n" $nid >> /lib/firmware/hda-jack-retask.fw
+    printf "0x%02x 0x70c 0x2\n" $nid >> /lib/firmware/hda-jack-retask.fw
+    printf "0x%02x 0x773 0x0\n" $nid >> /lib/firmware/hda-jack-retask.fw
+
+    printf "0x%02x 0x705 0x00\n" $pin >> /lib/firmware/hda-jack-retask.fw
     printf "0x%02x 0x707 0x45\n" $pin >> /lib/firmware/hda-jack-retask.fw
     printf "0x%02x 0x708 0x80\n" $pin >> /lib/firmware/hda-jack-retask.fw
     # EAPD/BTL enable
@@ -104,25 +132,9 @@ write_verb(){
     printf "0x%02x 0x71e 0x17\n" $pin >> /lib/firmware/hda-jack-retask.fw
     printf "0x%02x 0x71f 0x44\n" $pin >> /lib/firmware/hda-jack-retask.fw
 
-    (( nid++ ))
-    (( dev++ ))
-    (( pin++ ))
-    
-    printf "0x%02x 0x2 0x4011\n" $nid >> /lib/firmware/hda-jack-retask.fw
-    printf "0x%02x 0x3 0x1\n" $nid >> /lib/firmware/hda-jack-retask.fw    
-    printf "0x%02x 0x705 0x00\n" $nid >> /lib/firmware/hda-jack-retask.fw
-    printf "0x%02x 0x706 0x11\n" $nid >> /lib/firmware/hda-jack-retask.fw
-    printf "0x%02x 0x70c 0x2\n" $nid >> /lib/firmware/hda-jack-retask.fw
-    printf "0x%02x 0x773 0x0\n" $nid >> /lib/firmware/hda-jack-retask.fw
+    printf "0x%02x 0x724 0x3\n" $nid >> /lib/firmware/hda-jack-retask.fw
 
-    printf "0x%02x 0x707 0x45\n" $pin >> /lib/firmware/hda-jack-retask.fw
-    printf "0x%02x 0x708 0x80\n" $pin >> /lib/firmware/hda-jack-retask.fw
-    # EAPD/BTL enable
-    printf "0x%02x 0x70c 0x2\n" $pin >> /lib/firmware/hda-jack-retask.fw
-    printf "0x%02x 0x71c 0x10\n" $pin >> /lib/firmware/hda-jack-retask.fw
-    printf "0x%02x 0x71d 0x0\n" $pin >> /lib/firmware/hda-jack-retask.fw
-    printf "0x%02x 0x71e 0x17\n" $pin >> /lib/firmware/hda-jack-retask.fw
-    printf "0x%02x 0x71f 0x43\n" $pin >> /lib/firmware/hda-jack-retask.fw
+    printf "0x%02x 0x2 0x4011\n" $nid >> /lib/firmware/hda-jack-retask.fw
 }
 
 current_nid=`cat /root/nid`
