@@ -1,5 +1,5 @@
 --- patch_cirrus.c.orig	2017-05-05 21:27:44.911969001 +0200
-+++ patch_cirrus.c	2017-05-14 01:48:51.906342854 +0200
++++ patch_cirrus.c	2017-05-14 09:17:30.332980385 +0200
 @@ -138,6 +138,9 @@
  /* Cirrus Logic CS4213 is like CS4210 but does not have SPDIF input/output */
  #define CS4213_VENDOR_NID	0x09
@@ -30,7 +30,7 @@
  	SND_PCI_QUIRK(0x106b, 0x5b00, "MacBookAir 4,2", CS420X_MBA42),
  	SND_PCI_QUIRK_VENDOR(0x106b, "Apple", CS420X_APPLE),
  	{} /* terminator */
-@@ -1242,6 +1246,226 @@
+@@ -1242,6 +1246,234 @@
  	return err;
  }
  
@@ -45,8 +45,8 @@
 +{
 +	if (action == HDA_FIXUP_ACT_PRE_PROBE) {
 +		struct cs_spec *spec = codec->spec;
-+		spec->gpio_eapd_hp = 0; /* GPIO0 = headphones */
-+		spec->gpio_eapd_speaker = 1; /* GPIO1 = speakers */
++		spec->gpio_eapd_hp = 1 << 5; /* GPIO0 = headphones */
++		spec->gpio_eapd_speaker = 3 << 6; /* GPIO1 = speakers */
 +		spec->gpio_mask = spec->gpio_dir =
 +			spec->gpio_eapd_hp | spec->gpio_eapd_speaker;
 +	}
@@ -87,6 +87,14 @@
 +};
 +
 +static const struct hda_verb cs8409_coef_init_verbs[] = {
++	{ 0x01, AC_VERB_SET_POWER_STATE, 0x00 }, /* AFG: D0 */
++	{ 0x47, AC_VERB_SET_PROC_STATE, 0x1 },
++    	{ 0x47, AC_VERB_SET_COEF_INDEX, 0x3 },
++    	{ 0x47, AC_VERB_SET_PROC_COEF, 0x146a },
++    	{ 0x47, AC_VERB_SET_COEF_INDEX, 0x0033 },
++    	{ 0x47, AC_VERB_SET_PROC_COEF, 0x0001 },
++    	{ 0x47, AC_VERB_SET_COEF_INDEX, 0x0034 },
++    	{ 0x47, AC_VERB_SET_PROC_COEF, 0x1c01 },
 +	{} /* terminator */
 +};
 +
@@ -97,12 +105,12 @@
 +
 +	coef = cs_vendor_coef_get(codec, CS8409_IDX_DEV_CFG);
 +
-+	if (spec->gpio_mask)
-+		coef |= 0x003f; /* it has 8 GPIOs */
-+	else
-+		coef &= ~0x003f;
++	//	if (spec->gpio_mask)
++	//		coef |= 0x003f; /* it has 8 GPIOs */
++	//	else
++	//	coef &= ~0x003f;
 +
-+	cs_vendor_coef_set(codec, CS8409_IDX_DEV_CFG, coef);
++	//	cs_vendor_coef_set(codec, CS8409_IDX_DEV_CFG, coef);
 +}
 +
 +static void cs8409_spdif_automute(struct hda_codec *codec,
@@ -149,7 +157,7 @@
 +	struct cs_spec *spec = codec->spec;
 +
 +	if (spec->vendor_nid == CS8409_VENDOR_NID) {
-+		//		snd_hda_sequence_write(codec, cs8409_coef_init_verbs);
++		snd_hda_sequence_write(codec, cs8409_coef_init_verbs);
 +		cs8409_pinmux_init(codec);
 +	}
 +
@@ -257,7 +265,7 @@
  
  /*
   * patch entries
-@@ -1252,6 +1476,7 @@
+@@ -1252,6 +1484,7 @@
  	HDA_CODEC_ENTRY(0x10134208, "CS4208", patch_cs4208),
  	HDA_CODEC_ENTRY(0x10134210, "CS4210", patch_cs4210),
  	HDA_CODEC_ENTRY(0x10134213, "CS4213", patch_cs4213),
