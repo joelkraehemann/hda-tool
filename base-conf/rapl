@@ -1,0 +1,2736 @@
+===============
+0 - 2:36
+
+
+
+[   20.285485] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.287894] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.290289] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.292639] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.294953] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.297319] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.108008] intel_rapl: Found RAPL domain package
+[   21.109866] intel_rapl: Found RAPL domain core
+[   21.111586] intel_rapl: Found RAPL domain uncore
+[   21.113285] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+0 - 3:37
+
+
+
+[   19.257233] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.259766] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.261441] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.263378] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.264991] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.267064] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.199408] intel_rapl: Found RAPL domain package
+[   21.200848] intel_rapl: Found RAPL domain core
+[   21.202219] intel_rapl: Found RAPL domain uncore
+[   21.203591] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+0 - 4:38
+
+
+
+[   19.914851] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.917563] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.919222] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.921265] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.922815] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.924929] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.824140] intel_rapl: Found RAPL domain package
+[   21.826414] intel_rapl: Found RAPL domain core
+[   21.828845] intel_rapl: Found RAPL domain uncore
+[   21.830940] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+0 - 5:39
+
+
+
+[   19.893862] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.897503] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.900790] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.903651] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.906630] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.909448] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.215538] intel_rapl: Found RAPL domain package
+[   21.215539] intel_rapl: Found RAPL domain core
+[   21.215541] intel_rapl: Found RAPL domain uncore
+[   21.215542] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+0 - 6:40
+
+
+
+[   20.456633] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.460713] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.464550] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.474390] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.478922] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.483167] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.352299] intel_rapl: Found RAPL domain package
+[   22.353846] intel_rapl: Found RAPL domain core
+[   22.355272] intel_rapl: Found RAPL domain uncore
+[   22.356734] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+0 - 7:41
+
+
+
+[   19.957508] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.960992] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.962735] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.964458] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.966226] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.973127] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.792202] intel_rapl: Found RAPL domain package
+[   21.793729] intel_rapl: Found RAPL domain core
+[   21.795148] intel_rapl: Found RAPL domain uncore
+[   21.796535] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+0 - 8:42
+
+
+
+[   20.823334] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.824788] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.835736] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.837140] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.838500] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.839912] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.182900] intel_rapl: Found RAPL domain package
+[   22.185625] intel_rapl: Found RAPL domain core
+[   22.188153] intel_rapl: Found RAPL domain uncore
+[   22.190577] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+0 - 9:43
+
+
+
+[   20.284943] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.287669] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.293101] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.295850] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.298556] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.300245] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.227521] intel_rapl: Found RAPL domain package
+[   21.230221] intel_rapl: Found RAPL domain core
+[   21.232695] intel_rapl: Found RAPL domain uncore
+[   21.235211] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+0 - 10:44
+
+
+
+[   19.937326] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.940104] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.942850] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.945579] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.950982] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.953710] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.923364] intel_rapl: Found RAPL domain package
+[   21.926658] intel_rapl: Found RAPL domain core
+[   21.929726] intel_rapl: Found RAPL domain uncore
+[   21.932544] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+0 - 11:45
+
+
+
+[   19.960983] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.962786] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.964654] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.966507] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.968371] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.970187] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.427242] intel_rapl: Found RAPL domain package
+[   21.429173] intel_rapl: Found RAPL domain core
+[   21.431055] intel_rapl: Found RAPL domain uncore
+[   21.432937] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+0 - 12:46
+
+
+
+[   19.728389] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.730657] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.732933] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.735200] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.737409] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.739602] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.546030] intel_rapl: Found RAPL domain package
+[   20.547500] intel_rapl: Found RAPL domain core
+[   20.548826] intel_rapl: Found RAPL domain uncore
+[   20.550143] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+0 - 13:47
+
+
+
+[   20.146729] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.154050] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.157467] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.159260] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.160954] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.162617] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.736848] intel_rapl: Found RAPL domain package
+[   21.738268] intel_rapl: Found RAPL domain core
+[   21.739601] intel_rapl: Found RAPL domain uncore
+[   21.740913] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+0 - 14:48
+
+
+
+[   20.492913] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.494429] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.495946] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.497459] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.498917] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.500380] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.114546] intel_rapl: Found RAPL domain package
+[   22.117848] intel_rapl: Found RAPL domain core
+[   22.120212] intel_rapl: Found RAPL domain uncore
+[   22.121497] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+0 - 15:49
+
+
+
+[   19.856724] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.858347] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.859926] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.861482] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.863051] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.864641] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.073077] intel_rapl: Found RAPL domain package
+[   21.074547] intel_rapl: Found RAPL domain core
+[   21.076037] intel_rapl: Found RAPL domain uncore
+[   21.077449] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+0 - 16:50
+
+
+
+[   20.420690] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.422115] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.423501] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.424833] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.426160] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.427570] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.098690] intel_rapl: Found RAPL domain package
+[   22.100346] intel_rapl: Found RAPL domain core
+[   22.101847] intel_rapl: Found RAPL domain uncore
+[   22.103461] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+1 - 1:35
+
+
+
+[   19.461395] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.461397] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.461398] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.461399] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.461401] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.461402] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.487922] intel_rapl: Found RAPL domain package
+[   21.490599] intel_rapl: Found RAPL domain core
+[   21.492985] intel_rapl: Found RAPL domain uncore
+[   21.494253] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+1 - 2:36
+
+
+
+[   20.206535] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.209276] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.210875] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.212956] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.214611] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.216507] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.019335] intel_rapl: Found RAPL domain package
+[   22.022370] intel_rapl: Found RAPL domain core
+[   22.025002] intel_rapl: Found RAPL domain uncore
+[   22.027537] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+1 - 3:37
+
+
+
+[   19.939267] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.940902] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.942509] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.944088] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.945626] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.947238] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.051905] intel_rapl: Found RAPL domain package
+[   21.053388] intel_rapl: Found RAPL domain core
+[   21.054766] intel_rapl: Found RAPL domain uncore
+[   21.056148] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+1 - 4:38
+
+
+
+[   20.384857] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.386451] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.388014] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.389698] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.391227] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.392749] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.138806] intel_rapl: Found RAPL domain package
+[   22.141645] intel_rapl: Found RAPL domain core
+[   22.144459] intel_rapl: Found RAPL domain uncore
+[   22.147055] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+1 - 5:39
+
+
+
+[   20.077223] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.078541] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.079848] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.081161] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.082440] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.083841] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.002732] intel_rapl: Found RAPL domain package
+[   22.006226] intel_rapl: Found RAPL domain core
+[   22.008594] intel_rapl: Found RAPL domain uncore
+[   22.009893] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+1 - 6:40
+
+
+
+[   19.757880] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.760068] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.762025] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.764042] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.770091] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.772179] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.571051] intel_rapl: Found RAPL domain package
+[   21.573688] intel_rapl: Found RAPL domain core
+[   21.576070] intel_rapl: Found RAPL domain uncore
+[   21.578378] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+1 - 7:41
+
+
+
+[   20.376907] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.379011] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.381201] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.383349] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.385513] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.387652] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.621007] intel_rapl: Found RAPL domain package
+[   21.622859] intel_rapl: Found RAPL domain core
+[   21.624593] intel_rapl: Found RAPL domain uncore
+[   21.626291] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+1 - 8:42
+
+
+
+[   19.442069] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.444839] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.447440] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.449944] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.452381] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.454943] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.572451] intel_rapl: Found RAPL domain package
+[   20.573890] intel_rapl: Found RAPL domain core
+[   20.575233] intel_rapl: Found RAPL domain uncore
+[   20.576575] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+1 - 9:43
+
+
+
+[   19.868477] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.871307] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.874005] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.876458] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.878726] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.880920] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.662962] intel_rapl: Found RAPL domain package
+[   20.664471] intel_rapl: Found RAPL domain core
+[   20.665940] intel_rapl: Found RAPL domain uncore
+[   20.667426] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+1 - 10:44
+
+
+
+[   20.247753] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.249194] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.250713] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.252160] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.253619] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.255096] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.334574] intel_rapl: Found RAPL domain package
+[   22.338001] intel_rapl: Found RAPL domain core
+[   22.339605] intel_rapl: Found RAPL domain uncore
+[   22.340934] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+1 - 11:45
+
+
+
+[   20.273357] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.275374] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.277192] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.278850] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.280560] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.282262] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.477644] intel_rapl: Found RAPL domain package
+[   21.479023] intel_rapl: Found RAPL domain core
+[   21.480342] intel_rapl: Found RAPL domain uncore
+[   21.481652] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+1 - 12:46
+
+
+
+[   20.236788] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.238816] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.241005] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.243075] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.245166] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.247322] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.333467] intel_rapl: Found RAPL domain package
+[   21.335079] intel_rapl: Found RAPL domain core
+[   21.336591] intel_rapl: Found RAPL domain uncore
+[   21.338058] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+1 - 13:47
+
+
+
+[   20.368989] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.371255] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.373383] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.375540] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.381139] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.382697] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.632396] intel_rapl: Found RAPL domain package
+[   21.633775] intel_rapl: Found RAPL domain core
+[   21.635106] intel_rapl: Found RAPL domain uncore
+[   21.636432] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+1 - 14:48
+
+
+
+[   19.564450] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.566702] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.568299] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.569619] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.570974] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.572301] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.608441] intel_rapl: Found RAPL domain package
+[   20.611059] intel_rapl: Found RAPL domain core
+[   20.613494] intel_rapl: Found RAPL domain uncore
+[   20.615801] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+1 - 15:49
+
+
+
+[   20.305563] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.307288] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.308950] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.310640] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.312309] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.313992] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.602637] intel_rapl: Found RAPL domain package
+[   21.604445] intel_rapl: Found RAPL domain core
+[   21.606245] intel_rapl: Found RAPL domain uncore
+[   21.608038] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+1 - 16:50
+
+
+
+[   20.141870] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.143985] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.146070] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.148193] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.150286] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.152359] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.374159] intel_rapl: Found RAPL domain package
+[   22.377401] intel_rapl: Found RAPL domain core
+[   22.380369] intel_rapl: Found RAPL domain uncore
+[   22.383130] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+2 - 1:35
+
+
+
+[   19.575964] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.577895] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.579930] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.581995] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.584111] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.586077] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.255871] intel_rapl: Found RAPL domain package
+[   21.257267] intel_rapl: Found RAPL domain core
+[   21.258622] intel_rapl: Found RAPL domain uncore
+[   21.259985] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+2 - 2:36
+
+
+
+[   19.956696] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.960658] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.962647] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.965237] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.967763] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.969694] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.455465] intel_rapl: Found RAPL domain package
+[   21.459478] intel_rapl: Found RAPL domain core
+[   21.460911] intel_rapl: Found RAPL domain uncore
+[   21.462375] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+2 - 3:37
+
+
+
+[   20.540160] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.540161] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.540161] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.540162] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.540162] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.540163] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.391653] intel_rapl: Found RAPL domain package
+[   21.393524] intel_rapl: Found RAPL domain core
+[   21.395450] intel_rapl: Found RAPL domain uncore
+[   21.397073] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+2 - 4:38
+
+
+
+[   20.162732] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.165589] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.167045] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.168554] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.170517] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.171899] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.346506] intel_rapl: Found RAPL domain package
+[   21.349166] intel_rapl: Found RAPL domain core
+[   21.351674] intel_rapl: Found RAPL domain uncore
+[   21.354198] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+2 - 5:39
+
+
+
+[   19.766703] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.768344] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.769969] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.771633] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.773475] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.775078] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.480240] intel_rapl: Found RAPL domain package
+[   21.482718] intel_rapl: Found RAPL domain core
+[   21.484987] intel_rapl: Found RAPL domain uncore
+[   21.486311] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+2 - 6:40
+
+
+
+[   20.824432] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.826154] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.829465] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.831127] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.832800] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.834434] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.831698] intel_rapl: Found RAPL domain package
+[   21.833153] intel_rapl: Found RAPL domain core
+[   21.834510] intel_rapl: Found RAPL domain uncore
+[   21.835866] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+2 - 7:41
+
+
+
+[   20.316750] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.318841] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.320928] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.327359] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.329470] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.331634] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.354457] intel_rapl: Found RAPL domain package
+[   21.355911] intel_rapl: Found RAPL domain core
+[   21.357266] intel_rapl: Found RAPL domain uncore
+[   21.358651] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+2 - 8:42
+
+
+
+[   20.115647] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.117251] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.118919] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.120560] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.122203] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.123891] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.063494] intel_rapl: Found RAPL domain package
+[   22.066696] intel_rapl: Found RAPL domain core
+[   22.069456] intel_rapl: Found RAPL domain uncore
+[   22.072285] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+2 - 9:43
+
+
+
+[   19.983983] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.987053] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.990011] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.992994] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.995953] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.998763] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.126025] intel_rapl: Found RAPL domain package
+[   22.127610] intel_rapl: Found RAPL domain core
+[   22.129108] intel_rapl: Found RAPL domain uncore
+[   22.130728] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+2 - 10:44
+
+
+
+[   19.765370] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.766728] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.768033] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.769344] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.770669] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.772113] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.602617] intel_rapl: Found RAPL domain package
+[   21.605044] intel_rapl: Found RAPL domain core
+[   21.607370] intel_rapl: Found RAPL domain uncore
+[   21.609709] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+2 - 11:45
+
+
+
+[   20.256979] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.259850] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.261592] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.263224] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.264814] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.266545] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.956769] intel_rapl: Found RAPL domain package
+[   21.959150] intel_rapl: Found RAPL domain core
+[   21.961352] intel_rapl: Found RAPL domain uncore
+[   21.963504] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+2 - 12:46
+
+
+
+[   19.556838] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.559456] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.562093] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.564728] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.567336] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.569963] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.389788] intel_rapl: Found RAPL domain package
+[   21.392844] intel_rapl: Found RAPL domain core
+[   21.395581] intel_rapl: Found RAPL domain uncore
+[   21.398295] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+2 - 13:47
+
+
+
+[   20.302468] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.305640] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.307062] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.308511] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.309891] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.311763] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.008166] intel_rapl: Found RAPL domain package
+[   22.010490] intel_rapl: Found RAPL domain core
+[   22.012879] intel_rapl: Found RAPL domain uncore
+[   22.014749] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+2 - 14:48
+
+
+
+[   20.062710] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.068505] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.072032] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.075621] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.079026] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.082266] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.367007] intel_rapl: Found RAPL domain package
+[   21.370109] intel_rapl: Found RAPL domain core
+[   21.372955] intel_rapl: Found RAPL domain uncore
+[   21.375739] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+2 - 15:49
+
+
+
+[   20.244549] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.248180] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.250011] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.251807] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.253499] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.255158] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.442109] intel_rapl: Found RAPL domain package
+[   21.443903] intel_rapl: Found RAPL domain core
+[   21.445556] intel_rapl: Found RAPL domain uncore
+[   21.447268] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+2 - 16:50
+
+
+
+[   20.119319] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.121565] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.123781] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.134476] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.137456] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.138977] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.501950] intel_rapl: Found RAPL domain package
+[   21.503754] intel_rapl: Found RAPL domain core
+[   21.505572] intel_rapl: Found RAPL domain uncore
+[   21.507420] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+4 - 1:35
+
+
+
+[   20.013542] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.016297] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.018653] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.021434] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.023396] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.025342] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.426040] intel_rapl: Found RAPL domain package
+[   21.428656] intel_rapl: Found RAPL domain core
+[   21.431105] intel_rapl: Found RAPL domain uncore
+[   21.433581] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+4 - 2:36
+
+
+
+[   20.061978] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.063764] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.068681] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.070607] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.072636] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.074182] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.035912] intel_rapl: Found RAPL domain package
+[   21.037409] intel_rapl: Found RAPL domain core
+[   21.038783] intel_rapl: Found RAPL domain uncore
+[   21.040126] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+4 - 3:37
+
+
+
+[   20.055745] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.060819] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.064620] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.068661] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.072416] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.075237] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.322875] intel_rapl: Found RAPL domain package
+[   21.325896] intel_rapl: Found RAPL domain core
+[   21.328680] intel_rapl: Found RAPL domain uncore
+[   21.331609] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+4 - 4:38
+
+
+
+[   20.858399] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.860343] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.862241] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.864146] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.866039] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.867921] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.361055] intel_rapl: Found RAPL domain package
+[   22.363940] intel_rapl: Found RAPL domain core
+[   22.366730] intel_rapl: Found RAPL domain uncore
+[   22.369478] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+4 - 5:39
+
+
+
+[   19.546145] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.549014] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.551822] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.554424] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.556498] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.558176] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.383600] intel_rapl: Found RAPL domain package
+[   21.385019] intel_rapl: Found RAPL domain core
+[   21.386309] intel_rapl: Found RAPL domain uncore
+[   21.387700] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+4 - 6:40
+
+
+
+[   20.332461] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.334001] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.335811] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.337349] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.339022] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.340602] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.966932] intel_rapl: Found RAPL domain package
+[   20.968439] intel_rapl: Found RAPL domain core
+[   20.969826] intel_rapl: Found RAPL domain uncore
+[   20.971202] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+4 - 7:41
+
+
+
+[   20.517747] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.517748] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.517748] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.517749] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.517749] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.517750] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.042632] intel_rapl: Found RAPL domain package
+[   22.045423] intel_rapl: Found RAPL domain core
+[   22.047826] intel_rapl: Found RAPL domain uncore
+[   22.050235] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+4 - 8:42
+
+
+
+[   20.018961] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.020661] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.022324] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.024047] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.025700] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.027309] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.875904] intel_rapl: Found RAPL domain package
+[   21.877609] intel_rapl: Found RAPL domain core
+[   21.879205] intel_rapl: Found RAPL domain uncore
+[   21.880823] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+4 - 9:43
+
+
+
+[   21.784718] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   21.786494] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   21.788343] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   21.790292] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   21.792058] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   21.793828] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   23.618546] intel_rapl: Found RAPL domain package
+[   23.621020] intel_rapl: Found RAPL domain core
+[   23.623383] intel_rapl: Found RAPL domain uncore
+[   23.625721] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+4 - 10:44
+
+
+
+[   20.282710] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.284692] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.286737] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.288755] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.290869] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.292830] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.199555] intel_rapl: Found RAPL domain package
+[   21.201010] intel_rapl: Found RAPL domain core
+[   21.202409] intel_rapl: Found RAPL domain uncore
+[   21.203755] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+4 - 11:45
+
+
+
+[   20.073684] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.075288] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.076915] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.078452] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.080005] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.081911] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.068215] intel_rapl: Found RAPL domain package
+[   22.070790] intel_rapl: Found RAPL domain core
+[   22.073280] intel_rapl: Found RAPL domain uncore
+[   22.075591] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+4 - 12:46
+
+
+
+[   20.394192] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.400037] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.401863] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.403599] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.405372] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.407203] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.054979] intel_rapl: Found RAPL domain package
+[   22.056735] intel_rapl: Found RAPL domain core
+[   22.058376] intel_rapl: Found RAPL domain uncore
+[   22.060041] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+4 - 13:47
+
+
+
+[   19.341224] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.349590] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.352368] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.355131] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.357872] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.360629] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.291867] intel_rapl: Found RAPL domain package
+[   21.294690] intel_rapl: Found RAPL domain core
+[   21.297294] intel_rapl: Found RAPL domain uncore
+[   21.299813] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+4 - 14:48
+
+
+
+[   19.924003] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.926592] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.929100] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.931572] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.933344] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.934986] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.895318] intel_rapl: Found RAPL domain package
+[   21.899731] intel_rapl: Found RAPL domain core
+[   21.901570] intel_rapl: Found RAPL domain uncore
+[   21.903015] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+4 - 15:49
+
+
+
+[   20.585724] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.587783] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.589082] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.590368] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.596139] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.598251] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.230408] intel_rapl: Found RAPL domain package
+[   22.233707] intel_rapl: Found RAPL domain core
+[   22.235559] intel_rapl: Found RAPL domain uncore
+[   22.236884] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+4 - 16:50
+
+
+
+[   19.883917] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.885438] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.886988] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.888531] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.890027] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.891565] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.180306] intel_rapl: Found RAPL domain package
+[   21.181594] intel_rapl: Found RAPL domain core
+[   21.183297] intel_rapl: Found RAPL domain uncore
+[   21.185091] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+8 - 1:35
+
+
+
+[   20.181015] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.181016] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.181017] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.181017] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.181018] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.181018] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.228643] intel_rapl: Found RAPL domain package
+[   21.230055] intel_rapl: Found RAPL domain core
+[   21.231595] intel_rapl: Found RAPL domain uncore
+[   21.232947] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+8 - 2:36
+
+
+
+[   19.917543] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.921030] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.924449] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.927803] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.931137] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.934286] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.883470] intel_rapl: Found RAPL domain package
+[   21.887212] intel_rapl: Found RAPL domain core
+[   21.888785] intel_rapl: Found RAPL domain uncore
+[   21.890130] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+8 - 3:37
+
+
+
+[   20.376901] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.378170] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.379716] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.381155] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.382440] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.383678] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.797644] intel_rapl: Found RAPL domain package
+[   21.799096] intel_rapl: Found RAPL domain core
+[   21.800447] intel_rapl: Found RAPL domain uncore
+[   21.801803] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+8 - 4:38
+
+
+
+[   19.973082] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.977618] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.982320] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.986545] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.989989] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.992843] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.957508] intel_rapl: Found RAPL domain package
+[   21.960203] intel_rapl: Found RAPL domain core
+[   21.962556] intel_rapl: Found RAPL domain uncore
+[   21.964846] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+8 - 5:39
+
+
+
+[   19.494121] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.495765] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.497379] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.499023] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.500632] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.505543] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.424976] intel_rapl: Found RAPL domain package
+[   20.426399] intel_rapl: Found RAPL domain core
+[   20.427751] intel_rapl: Found RAPL domain uncore
+[   20.429427] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+8 - 6:40
+
+
+
+[   20.125291] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.127415] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.129550] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.131884] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.133936] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.136113] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.998279] intel_rapl: Found RAPL domain package
+[   20.999949] intel_rapl: Found RAPL domain core
+[   21.001581] intel_rapl: Found RAPL domain uncore
+[   21.003303] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+8 - 7:41
+
+
+
+[   19.899444] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.901446] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.903528] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.905545] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.907758] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.910014] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.812137] intel_rapl: Found RAPL domain package
+[   21.814022] intel_rapl: Found RAPL domain core
+[   21.816086] intel_rapl: Found RAPL domain uncore
+[   21.817851] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+8 - 8:42
+
+
+
+[   19.540785] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.540786] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.540787] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.540788] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.540789] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.540789] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.555195] intel_rapl: Found RAPL domain package
+[   21.556610] intel_rapl: Found RAPL domain core
+[   21.557907] intel_rapl: Found RAPL domain uncore
+[   21.559218] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+8 - 9:43
+
+
+
+[   20.366320] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.367987] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.369646] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.371287] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.372956] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.374593] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.729092] intel_rapl: Found RAPL domain package
+[   21.730531] intel_rapl: Found RAPL domain core
+[   21.731875] intel_rapl: Found RAPL domain uncore
+[   21.733231] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+8 - 10:44
+
+
+
+[   19.936601] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.938610] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.940769] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.942840] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.944946] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.947055] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.740927] intel_rapl: Found RAPL domain package
+[   21.743841] intel_rapl: Found RAPL domain core
+[   21.746514] intel_rapl: Found RAPL domain uncore
+[   21.749144] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+8 - 11:45
+
+
+
+[   19.909001] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.911724] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.914430] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.916758] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.918560] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.920188] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.715668] intel_rapl: Found RAPL domain package
+[   21.718721] intel_rapl: Found RAPL domain core
+[   21.721271] intel_rapl: Found RAPL domain uncore
+[   21.723769] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+8 - 12:46
+
+
+
+[   20.228031] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.229489] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.230738] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.231993] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.233232] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.234495] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.204418] intel_rapl: Found RAPL domain package
+[   22.206972] intel_rapl: Found RAPL domain core
+[   22.209439] intel_rapl: Found RAPL domain uncore
+[   22.211002] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+8 - 13:47
+
+
+
+[   20.200046] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.204618] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.205985] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.207367] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.209436] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.210748] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.942431] intel_rapl: Found RAPL domain package
+[   21.943726] intel_rapl: Found RAPL domain core
+[   21.944945] intel_rapl: Found RAPL domain uncore
+[   21.946168] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+8 - 14:48
+
+
+
+[   19.284474] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.286201] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.291452] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.293243] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.294990] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.296697] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.435139] intel_rapl: Found RAPL domain package
+[   20.437986] intel_rapl: Found RAPL domain core
+[   20.440961] intel_rapl: Found RAPL domain uncore
+[   20.443943] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+8 - 15:49
+
+
+
+[   19.792653] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.794691] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.796580] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.798540] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.800622] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.802620] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.498049] intel_rapl: Found RAPL domain package
+[   21.499537] intel_rapl: Found RAPL domain core
+[   21.500879] intel_rapl: Found RAPL domain uncore
+[   21.502231] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+8 - 16:50
+
+
+
+[   19.954162] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.954163] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.954163] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.954164] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.954164] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.954165] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.382417] intel_rapl: Found RAPL domain package
+[   21.383809] intel_rapl: Found RAPL domain core
+[   21.385133] intel_rapl: Found RAPL domain uncore
+[   21.386455] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+16 - 1:35
+
+
+
+[   19.317090] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.319819] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.322503] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.325161] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.326892] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.328999] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.424936] intel_rapl: Found RAPL domain package
+[   20.427808] intel_rapl: Found RAPL domain core
+[   20.429214] intel_rapl: Found RAPL domain uncore
+[   20.430624] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+16 - 2:36
+
+
+
+[   19.933739] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.935508] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.937249] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.939037] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.940765] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.942521] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.933822] intel_rapl: Found RAPL domain package
+[   21.935358] intel_rapl: Found RAPL domain core
+[   21.936724] intel_rapl: Found RAPL domain uncore
+[   21.938025] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+16 - 3:37
+
+
+
+[   19.980583] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.984688] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.989054] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.993358] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.997427] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.001066] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.182434] intel_rapl: Found RAPL domain package
+[   21.184305] intel_rapl: Found RAPL domain core
+[   21.186181] intel_rapl: Found RAPL domain uncore
+[   21.188134] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+16 - 4:38
+
+
+
+[   19.964888] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.978968] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.980300] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.981911] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.983515] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.985095] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.175256] intel_rapl: Found RAPL domain package
+[   21.178001] intel_rapl: Found RAPL domain core
+[   21.180468] intel_rapl: Found RAPL domain uncore
+[   21.182919] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+16 - 5:39
+
+
+
+[   20.835076] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.837887] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.840693] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.843405] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.846099] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.848759] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.068273] intel_rapl: Found RAPL domain package
+[   22.070096] intel_rapl: Found RAPL domain core
+[   22.072040] intel_rapl: Found RAPL domain uncore
+[   22.072041] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+16 - 6:40
+
+
+
+[   19.893331] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.895341] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.897455] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.899506] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.901559] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.903712] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.246981] intel_rapl: Found RAPL domain package
+[   21.248891] intel_rapl: Found RAPL domain core
+[   21.250702] intel_rapl: Found RAPL domain uncore
+[   21.252542] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+16 - 7:41
+
+
+
+[   20.492614] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.492614] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.492615] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.492615] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.492615] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.492616] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.653875] intel_rapl: Found RAPL domain package
+[   22.656559] intel_rapl: Found RAPL domain core
+[   22.658931] intel_rapl: Found RAPL domain uncore
+[   22.661240] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+16 - 8:42
+
+
+
+[   19.906213] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.908273] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.910392] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.912416] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.914503] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.916549] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.340006] intel_rapl: Found RAPL domain package
+[   21.341398] intel_rapl: Found RAPL domain core
+[   21.342680] intel_rapl: Found RAPL domain uncore
+[   21.343963] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+16 - 9:43
+
+
+
+[   19.827969] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.829678] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.831509] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.833178] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.834824] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.836480] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.735459] intel_rapl: Found RAPL domain package
+[   21.738660] intel_rapl: Found RAPL domain core
+[   21.738661] intel_rapl: Found RAPL domain uncore
+[   21.738663] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+16 - 10:44
+
+
+
+[   20.395227] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.397935] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.399276] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.400647] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.401949] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.403244] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.057156] intel_rapl: Found RAPL domain package
+[   22.058509] intel_rapl: Found RAPL domain core
+[   22.059828] intel_rapl: Found RAPL domain uncore
+[   22.061189] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+16 - 11:45
+
+
+
+[   20.065283] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.066879] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.068476] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.069998] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.071571] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.076735] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.900529] intel_rapl: Found RAPL domain package
+[   20.902004] intel_rapl: Found RAPL domain core
+[   20.903389] intel_rapl: Found RAPL domain uncore
+[   20.904761] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+16 - 12:46
+
+
+
+[   19.934013] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.937508] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.939228] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.942760] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.944550] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.946299] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.890798] intel_rapl: Found RAPL domain package
+[   21.892283] intel_rapl: Found RAPL domain core
+[   21.893634] intel_rapl: Found RAPL domain uncore
+[   21.895037] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+16 - 13:47
+
+
+
+[   19.833259] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.838443] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.841661] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.844762] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.847861] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.850741] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.608791] intel_rapl: Found RAPL domain package
+[   21.611650] intel_rapl: Found RAPL domain core
+[   21.613052] intel_rapl: Found RAPL domain uncore
+[   21.614428] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+16 - 14:48
+
+
+
+[   19.821894] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.821898] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.821899] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.821900] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.821902] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.821903] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.988298] intel_rapl: Found RAPL domain package
+[   20.989710] intel_rapl: Found RAPL domain core
+[   20.991067] intel_rapl: Found RAPL domain uncore
+[   20.992688] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+16 - 15:49
+
+
+
+[   20.158823] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.161119] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.163413] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.165673] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.167934] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.170168] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.435521] intel_rapl: Found RAPL domain package
+[   22.435523] intel_rapl: Found RAPL domain core
+[   22.435525] intel_rapl: Found RAPL domain uncore
+[   22.435527] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+16 - 16:50
+
+
+
+[   20.202447] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.204247] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.205543] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.206807] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.208096] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.209347] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.652551] intel_rapl: Found RAPL domain package
+[   21.654395] intel_rapl: Found RAPL domain core
+[   21.656299] intel_rapl: Found RAPL domain uncore
+[   21.658113] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+32 - 1:35
+
+
+
+[   20.320120] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.321702] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.323246] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.324772] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.326295] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.327816] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.728423] intel_rapl: Found RAPL domain package
+[   21.729863] intel_rapl: Found RAPL domain core
+[   21.731188] intel_rapl: Found RAPL domain uncore
+[   21.732527] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+32 - 2:36
+
+
+
+[   19.858801] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.861289] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.863058] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.864951] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.866473] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.868448] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.879292] intel_rapl: Found RAPL domain package
+[   21.881967] intel_rapl: Found RAPL domain core
+[   21.884445] intel_rapl: Found RAPL domain uncore
+[   21.886870] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+32 - 3:37
+
+
+
+[   19.317773] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.319554] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.321151] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.322782] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.324467] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.326085] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.602958] intel_rapl: Found RAPL domain package
+[   20.605594] intel_rapl: Found RAPL domain core
+[   20.608240] intel_rapl: Found RAPL domain uncore
+[   20.610951] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+32 - 4:38
+
+
+
+[   19.383608] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.386153] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.388864] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.391482] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.394148] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.396633] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.369431] intel_rapl: Found RAPL domain package
+[   20.370867] intel_rapl: Found RAPL domain core
+[   20.372202] intel_rapl: Found RAPL domain uncore
+[   20.373543] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+32 - 5:39
+
+
+
+[   19.869000] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.870725] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.872371] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.873997] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.876124] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.877726] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.274237] intel_rapl: Found RAPL domain package
+[   22.277563] intel_rapl: Found RAPL domain core
+[   22.280634] intel_rapl: Found RAPL domain uncore
+[   22.283646] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+32 - 6:40
+
+
+
+[   19.948104] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.950953] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.953812] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.956658] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.959457] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.962254] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.042566] intel_rapl: Found RAPL domain package
+[   22.045640] intel_rapl: Found RAPL domain core
+[   22.048733] intel_rapl: Found RAPL domain uncore
+[   22.051715] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+32 - 7:41
+
+
+
+[   19.925416] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.928625] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.930409] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.932143] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.933626] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.935142] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.060280] intel_rapl: Found RAPL domain package
+[   22.062724] intel_rapl: Found RAPL domain core
+[   22.064977] intel_rapl: Found RAPL domain uncore
+[   22.067088] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+32 - 8:42
+
+
+
+[   20.181499] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.184508] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.186023] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.187546] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.188990] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.190407] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.356340] intel_rapl: Found RAPL domain package
+[   21.357713] intel_rapl: Found RAPL domain core
+[   21.359128] intel_rapl: Found RAPL domain uncore
+[   21.360511] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+32 - 9:43
+
+
+
+[   20.027136] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.029707] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.031319] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.032944] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.034921] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.037645] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.164575] intel_rapl: Found RAPL domain package
+[   21.167214] intel_rapl: Found RAPL domain core
+[   21.169969] intel_rapl: Found RAPL domain uncore
+[   21.176259] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+32 - 10:44
+
+
+
+[   20.066122] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.066123] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.066124] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.066124] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.066124] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.066125] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.891543] intel_rapl: Found RAPL domain package
+[   21.894164] intel_rapl: Found RAPL domain core
+[   21.896669] intel_rapl: Found RAPL domain uncore
+[   21.899140] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+32 - 11:45
+
+
+
+[   19.978747] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.006588] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.008017] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.009424] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.010913] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.012357] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.016738] intel_rapl: Found RAPL domain package
+[   21.018483] intel_rapl: Found RAPL domain core
+[   21.020199] intel_rapl: Found RAPL domain uncore
+[   21.021873] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+32 - 12:46
+
+
+
+[   20.050125] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.052489] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.054738] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.057098] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.059290] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.061562] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.215069] intel_rapl: Found RAPL domain package
+[   21.217926] intel_rapl: Found RAPL domain core
+[   21.219285] intel_rapl: Found RAPL domain uncore
+[   21.220632] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+32 - 13:47
+
+
+
+[   20.052275] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.052276] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.052278] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.052279] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.052280] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.052281] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.407842] intel_rapl: Found RAPL domain package
+[   21.407844] intel_rapl: Found RAPL domain core
+[   21.407845] intel_rapl: Found RAPL domain uncore
+[   21.407846] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+32 - 14:48
+
+
+
+[   21.830520] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   21.832107] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   21.833682] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   21.835273] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   21.836828] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   21.838334] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   24.583864] intel_rapl: Found RAPL domain package
+[   24.587038] intel_rapl: Found RAPL domain core
+[   24.589917] intel_rapl: Found RAPL domain uncore
+[   24.592878] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+32 - 15:49
+
+
+
+[   19.899538] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.901170] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.902712] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.904246] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.905895] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.907603] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.190646] intel_rapl: Found RAPL domain package
+[   22.193070] intel_rapl: Found RAPL domain core
+[   22.195465] intel_rapl: Found RAPL domain uncore
+[   22.197047] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+32 - 16:50
+
+
+
+[   20.512148] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.513878] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.515128] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.516371] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.517634] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.518896] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.754804] intel_rapl: Found RAPL domain package
+[   21.756239] intel_rapl: Found RAPL domain core
+[   21.757566] intel_rapl: Found RAPL domain uncore
+[   21.758949] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+64 - 1:35
+
+
+
+[   20.292447] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.294400] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.296502] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.298759] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.300741] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.302741] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.812812] intel_rapl: Found RAPL domain package
+[   21.814302] intel_rapl: Found RAPL domain core
+[   21.815649] intel_rapl: Found RAPL domain uncore
+[   21.816975] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+64 - 2:36
+
+
+
+[   20.855472] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.859248] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.861291] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.863255] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.865429] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.867586] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.566751] intel_rapl: Found RAPL domain package
+[   21.570202] intel_rapl: Found RAPL domain core
+[   21.572035] intel_rapl: Found RAPL domain uncore
+[   21.573824] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+64 - 3:37
+
+
+
+[   19.435615] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.437722] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.439878] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.441967] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.444116] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.446261] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.466787] intel_rapl: Found RAPL domain package
+[   20.469641] intel_rapl: Found RAPL domain core
+[   20.471024] intel_rapl: Found RAPL domain uncore
+[   20.472432] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+64 - 4:38
+
+
+
+[   19.667396] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.669917] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.672345] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.674510] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.676741] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.678937] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.458719] intel_rapl: Found RAPL domain package
+[   21.460222] intel_rapl: Found RAPL domain core
+[   21.461540] intel_rapl: Found RAPL domain uncore
+[   21.462904] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+64 - 5:39
+
+
+
+[   19.962449] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.965956] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.969358] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.974048] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.978082] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.980758] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.977578] intel_rapl: Found RAPL domain package
+[   20.979377] intel_rapl: Found RAPL domain core
+[   20.981109] intel_rapl: Found RAPL domain uncore
+[   20.982756] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+64 - 6:40
+
+
+
+[   19.537861] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.541387] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.544853] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.548493] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.552585] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.556222] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.910782] intel_rapl: Found RAPL domain package
+[   20.910783] intel_rapl: Found RAPL domain core
+[   20.910784] intel_rapl: Found RAPL domain uncore
+[   20.910784] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+64 - 7:41
+
+
+
+[   20.221197] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.222969] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.224688] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.226448] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.228239] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.230036] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.303102] intel_rapl: Found RAPL domain package
+[   21.304500] intel_rapl: Found RAPL domain core
+[   21.305881] intel_rapl: Found RAPL domain uncore
+[   21.307237] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+64 - 8:42
+
+
+
+[   19.819875] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.824891] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.829584] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.834106] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.838166] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.841524] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.315266] intel_rapl: Found RAPL domain package
+[   22.317970] intel_rapl: Found RAPL domain core
+[   22.320622] intel_rapl: Found RAPL domain uncore
+[   22.323350] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+64 - 9:43
+
+
+
+[   19.862845] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.865055] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.867205] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.869393] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.871492] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.873617] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.803946] intel_rapl: Found RAPL domain package
+[   21.806494] intel_rapl: Found RAPL domain core
+[   21.807967] intel_rapl: Found RAPL domain uncore
+[   21.809350] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+64 - 10:44
+
+
+
+[   19.831692] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.835816] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.839392] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.842903] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.846255] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.849429] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.058573] intel_rapl: Found RAPL domain package
+[   21.060068] intel_rapl: Found RAPL domain core
+[   21.061430] intel_rapl: Found RAPL domain uncore
+[   21.062802] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+64 - 11:45
+
+
+
+[   19.768409] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.768410] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.768411] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.768412] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.768412] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.768413] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.027381] intel_rapl: Found RAPL domain package
+[   21.030629] intel_rapl: Found RAPL domain core
+[   21.033620] intel_rapl: Found RAPL domain uncore
+[   21.036628] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+64 - 12:46
+
+
+
+[   20.039912] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.041307] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.042573] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.043807] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.045089] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.049118] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.349092] intel_rapl: Found RAPL domain package
+[   21.351199] intel_rapl: Found RAPL domain core
+[   21.353101] intel_rapl: Found RAPL domain uncore
+[   21.354672] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+64 - 13:47
+
+
+
+[   20.098455] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.098455] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.098456] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.098456] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.098457] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.098457] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.230951] intel_rapl: Found RAPL domain package
+[   21.232351] intel_rapl: Found RAPL domain core
+[   21.233718] intel_rapl: Found RAPL domain uncore
+[   21.235042] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+64 - 14:48
+
+
+
+[   20.212722] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.215391] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.218133] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.220789] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.223445] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.226088] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.754553] intel_rapl: Found RAPL domain package
+[   21.756018] intel_rapl: Found RAPL domain core
+[   21.757367] intel_rapl: Found RAPL domain uncore
+[   21.758742] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+64 - 15:49
+
+
+
+[   20.180771] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.184261] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.186069] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.187948] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.189666] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.191471] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.646109] intel_rapl: Found RAPL domain package
+[   21.647890] intel_rapl: Found RAPL domain core
+[   21.649649] intel_rapl: Found RAPL domain uncore
+[   21.651472] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+64 - 16:50
+
+
+
+[   19.804054] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.806142] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.808319] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.810487] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.812650] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.814926] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.746189] intel_rapl: Found RAPL domain package
+[   21.747684] intel_rapl: Found RAPL domain core
+[   21.749029] intel_rapl: Found RAPL domain uncore
+[   21.750402] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+128 - 1:35
+
+
+
+[   20.040333] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.041997] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.043614] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.045187] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.046763] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.048276] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.361537] intel_rapl: Found RAPL domain package
+[   21.364822] intel_rapl: Found RAPL domain core
+[   21.367719] intel_rapl: Found RAPL domain uncore
+[   21.370273] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+128 - 2:36
+
+
+
+[   20.188463] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.190896] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.193348] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.195814] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.198208] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.200611] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.941532] intel_rapl: Found RAPL domain package
+[   20.943601] intel_rapl: Found RAPL domain core
+[   20.945311] intel_rapl: Found RAPL domain uncore
+[   20.947026] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+128 - 3:37
+
+
+
+[   20.123858] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.126482] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.128451] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.130179] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.132762] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.134362] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.875620] intel_rapl: Found RAPL domain package
+[   21.878438] intel_rapl: Found RAPL domain core
+[   21.879742] intel_rapl: Found RAPL domain uncore
+[   21.881088] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+128 - 4:38
+
+
+
+[   20.037981] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.040658] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.043311] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.045973] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.048619] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.051259] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.139501] intel_rapl: Found RAPL domain package
+[   21.141294] intel_rapl: Found RAPL domain core
+[   21.142980] intel_rapl: Found RAPL domain uncore
+[   21.144756] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+128 - 5:39
+
+
+
+[   20.055500] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.057280] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.059015] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.060822] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.062625] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.064439] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.949264] intel_rapl: Found RAPL domain package
+[   20.950671] intel_rapl: Found RAPL domain core
+[   20.952021] intel_rapl: Found RAPL domain uncore
+[   20.953394] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+128 - 6:40
+
+
+
+[   19.413181] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.414780] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.416405] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.417983] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.419583] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.421140] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.685944] intel_rapl: Found RAPL domain package
+[   20.687851] intel_rapl: Found RAPL domain core
+[   20.689680] intel_rapl: Found RAPL domain uncore
+[   20.691510] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+128 - 7:41
+
+
+
+[   20.120740] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.122031] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.123338] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.124629] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.125891] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.127164] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.831462] intel_rapl: Found RAPL domain package
+[   21.834461] intel_rapl: Found RAPL domain core
+[   21.837131] intel_rapl: Found RAPL domain uncore
+[   21.839895] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+128 - 8:42
+
+
+
+[   19.584582] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.586249] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.588001] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.589750] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.591459] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.593180] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.308736] intel_rapl: Found RAPL domain package
+[   21.310104] intel_rapl: Found RAPL domain core
+[   21.311534] intel_rapl: Found RAPL domain uncore
+[   21.312885] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+128 - 9:43
+
+
+
+[   20.064233] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.066381] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.068654] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.070708] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.077255] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.079468] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.902734] intel_rapl: Found RAPL domain package
+[   20.904201] intel_rapl: Found RAPL domain core
+[   20.905630] intel_rapl: Found RAPL domain uncore
+[   20.907063] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+128 - 10:44
+
+
+
+[   20.147182] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.148504] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.149800] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.151103] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.152380] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.153595] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.931589] intel_rapl: Found RAPL domain package
+[   21.933018] intel_rapl: Found RAPL domain core
+[   21.934305] intel_rapl: Found RAPL domain uncore
+[   21.935605] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+128 - 11:45
+
+
+
+[   20.027273] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.030048] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.032829] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.035560] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.038277] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.040964] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.209593] intel_rapl: Found RAPL domain package
+[   22.213275] intel_rapl: Found RAPL domain core
+[   22.216524] intel_rapl: Found RAPL domain uncore
+[   22.219632] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+128 - 12:46
+
+
+
+[   20.465971] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.467537] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.467539] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.467540] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.467540] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.467541] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.767524] intel_rapl: Found RAPL domain package
+[   21.770442] intel_rapl: Found RAPL domain core
+[   21.773289] intel_rapl: Found RAPL domain uncore
+[   21.775909] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+128 - 13:47
+
+
+
+[   19.985499] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   19.988270] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   19.990677] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   19.992242] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   19.994360] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   19.995925] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   20.926119] intel_rapl: Found RAPL domain package
+[   20.927818] intel_rapl: Found RAPL domain core
+[   20.929454] intel_rapl: Found RAPL domain uncore
+[   20.930904] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+128 - 14:48
+
+
+
+[   20.154134] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.157652] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.159415] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.160741] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.162032] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.163851] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.170891] intel_rapl: Found RAPL domain package
+[   22.172323] intel_rapl: Found RAPL domain core
+[   22.173679] intel_rapl: Found RAPL domain uncore
+[   22.175074] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+128 - 15:49
+
+
+
+[   20.101680] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.101681] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.101681] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.101682] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.101682] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.101683] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   21.824551] intel_rapl: Found RAPL domain package
+[   21.827468] intel_rapl: Found RAPL domain core
+[   21.829935] intel_rapl: Found RAPL domain uncore
+[   21.831290] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+128 - 16:50
+
+
+
+[   20.010911] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.013114] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.015098] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.017192] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.018869] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.020972] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.384907] intel_rapl: Found RAPL domain package
+[   22.387852] intel_rapl: Found RAPL domain core
+[   22.390329] intel_rapl: Found RAPL domain uncore
+[   22.392812] intel_rapl: Found RAPL domain dram
+
+
+
+===============
+===============
+256 - 1:35
+
+
+
+[   20.030239] RAPL PMU: API unit is 2^-32 Joules, 5 fixed counters, 655360 ms ovfl timer
+[   20.035772] RAPL PMU: hw unit of domain pp0-core 2^-14 Joules
+[   20.039205] RAPL PMU: hw unit of domain package 2^-14 Joules
+[   20.042648] RAPL PMU: hw unit of domain dram 2^-14 Joules
+[   20.046025] RAPL PMU: hw unit of domain pp1-gpu 2^-14 Joules
+[   20.048725] RAPL PMU: hw unit of domain psys 2^-14 Joules
+[   22.703622] intel_rapl: Found RAPL domain package
+[   22.707214] intel_rapl: Found RAPL domain core
+[   22.710420] intel_rapl: Found RAPL domain uncore
+[   22.713645] intel_rapl: Found RAPL domain dram
+
+
+
+===============
