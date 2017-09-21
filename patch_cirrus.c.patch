@@ -1,5 +1,5 @@
---- patch_cirrus.c.orig	2017-08-20 10:32:27.438923801 +0200
-+++ patch_cirrus.c	2017-08-20 10:00:56.726823253 +0200
+--- patch_cirrus.c.orig	2017-09-21 05:30:01.119543365 +0200
++++ patch_cirrus.c	2017-09-21 05:26:11.391589686 +0200
 @@ -29,6 +29,12 @@
  #include "hda_jack.h"
  #include "hda_generic.h"
@@ -23,7 +23,7 @@
  
  static inline int cs_vendor_coef_get(struct hda_codec *codec, unsigned int idx)
  {
-@@ -1242,6 +1251,334 @@
+@@ -1242,6 +1251,355 @@
  	return err;
  }
  
@@ -77,6 +77,27 @@
 +};
 +
 +static const struct hda_verb cs8409_coef_init_verbs[] = {
++	{0x0, 0x705, 0x1},
++	{0x1, 0x703, 0x11},
++	{0x8, 0x500, 0x11},
++	{0x99, 0x499, 0x11},
++	{0x17, 0x500, 0x11},
++	{0x12, 0x4a4, 0x11},
++	{0x1, 0x500, 0x11},
++	{0x9, 0x400, 0x11},
++	{0x0, 0x705, 0x7},
++	{0x0, 0x705, 0x8},
++	{0x17, 0x500, 0x11},
++	{0x12, 0x424, 0x11},
++	{0x8, 0x500, 0x11},
++	{0x0, 0x400, 0x11},
++	{0x1, 0x500, 0x11},
++	{0x8, 0x400, 0x11},
++	{0x0, 0x703, 0x11},
++	{0x3, 0x705, 0x7},
++	{0x3, 0x705, 0x8},
++	{0x3, 0x705, 0x1},
++
 +	{0x47, AC_VERB_SET_PROC_STATE, 0x01},  /* VPW: processing on */
 +
 +	{0x47, AC_VERB_SET_COEF_INDEX, 0x0000},
@@ -358,7 +379,7 @@
  
  /*
   * patch entries
-@@ -1252,6 +1589,7 @@
+@@ -1252,6 +1610,7 @@
  	HDA_CODEC_ENTRY(0x10134208, "CS4208", patch_cs4208),
  	HDA_CODEC_ENTRY(0x10134210, "CS4210", patch_cs4210),
  	HDA_CODEC_ENTRY(0x10134213, "CS4213", patch_cs4213),

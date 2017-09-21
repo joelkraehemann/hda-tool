@@ -234,22 +234,22 @@ else
     if [ $enable_hp ] ;
     then
 	echo "options snd_hda_intel model=mbp131" > /etc/modprobe.d/alsa-base.conf
-	echo "options snd_hda_codec_cirrus hp_out_mask=$current_gpio" > /etc/modprobe.d/alsa-base.conf
-	echo "options snd_hda_codec_cirrus speaker_out_mask=0" > /etc/modprobe.d/alsa-base.conf
+	echo "options snd_hda_codec_cirrus hp_out_mask=$current_gpio" >> /etc/modprobe.d/alsa-base.conf
+	echo "options snd_hda_codec_cirrus speaker_out_mask=0" >> /etc/modprobe.d/alsa-base.conf
     fi
 
     if [ $enable_speaker_left ] ;
     then
 	echo "options snd_hda_intel model=mbp131" > /etc/modprobe.d/alsa-base.conf
-	echo "options snd_hda_codec_cirrus hp_out_mask=0" > /etc/modprobe.d/alsa-base.conf
-	echo "options snd_hda_codec_cirrus speaker_out_mask=$current_gpio" > /etc/modprobe.d/alsa-base.conf
+	echo "options snd_hda_codec_cirrus hp_out_mask=0" >> /etc/modprobe.d/alsa-base.conf
+	echo "options snd_hda_codec_cirrus speaker_out_mask=$current_gpio" >> /etc/modprobe.d/alsa-base.conf
     fi
 
     if [ $enable_speaker_right ] ;
     then
 	echo "options snd_hda_intel model=mbp131" > /etc/modprobe.d/alsa-base.conf
-	echo "options snd_hda_codec_cirrus hp_out_mask=0" > /etc/modprobe.d/alsa-base.conf
-	echo "options snd_hda_codec_cirrus speaker_out_mask=$current_gpio" > /etc/modprobe.d/alsa-base.conf
+	echo "options snd_hda_codec_cirrus hp_out_mask=0" >> /etc/modprobe.d/alsa-base.conf
+	echo "options snd_hda_codec_cirrus speaker_out_mask=$current_gpio" >> /etc/modprobe.d/alsa-base.conf
     fi
 
     reboot
